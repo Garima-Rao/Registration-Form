@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+  height:40px;
+}
+  .logo-out{
+    height:50px;
+    width:50px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+    transform: rotate(225deg);
+}
+.logo-in{
+    height:27px;
+    width:27px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.bg-orange{
+    background-color: rgb(230, 137, 44);
+}
+.orange{
+    color: rgb(230, 137, 44);
+}
+/* .row{
+  border: 2px solid black;
+}
+.row div{
+  border: 2px solid black;
+} */
+.box {
+  height: 30px;
+}
+
+ </style>
+</head>
+<body>
+  
+  <nav class="navbar bg-orange ">
+</nav>
+
+
+  <div class="container mt-5">
+    <!-- 1st row -->
+  <div class="row d-flex align-items-center ">
+    <div class="col-sm-10"><h1 class="orange">REGISTRATION FORM</h1></div>
+    <div class="col-sm-2 mt-2 d-flex flex-column justify-content-center align-items-center">
+      <div class="logo-out">
+        <div class="logo-in">
+        </div>
+     </div>
+     <h4>company</h4>
+    </div>
+  </div>
+  <!-- 2nd row -->
+  <div class="row">
+    <div class="col-sm-12">
+        <div>
+      <label for="">Company Name</label>
+      </div>
+    <div>
+     <label for="">123 Street Name City Name, State, Country, 12345</label>
+    </div>
+    <div>
+        <label for="">+00 123 4567890 | info@example.com | www.example.com</label>
+    </div>
+  </div> 
+  </div>
+  <!-- 3rd row -->
+  
+  
+  <div class="row mt-3 align-items-center">
+  <div class="col-12 col-md-2 mb-2 mb-md-0"><b>Date</b></div>
+
+  <div class="col-12 col-md-3 mb-2 mb-md-0">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Day</label>
+      <input type="number" class="form-control p-1 me-2 ms-4" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-3 mb-2 mb-md-0">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Month</label>
+      <input type="number" class="form-control p-1 me-2 ms-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Year</label>
+      <input type="number" class="form-control p-1 me-2 ms-4" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1 me-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1 me-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+</div>
+
+<!-- 4th row -->
+ <div class="row">
+  <div class="col"><b>Chairman / Managing Director</b></div>
+ </div>
+ <!-- 5th row -->
+   <div class="row">
+  <div class="col"><input type="number" class="form-control"  disabled></div>
+ </div>
+ <!-- 6th row -->
+  <div class="row">
+    <div class="col-sm-12">
+        <div>
+          <b>
+      <label for="">Dear Sir/Madam</label>
+      </div>
+    <div>
+     <label for="">I/We are applying to register with Company Name.My/our detailed information are given below.</label>
+    </div>
+    <div>
+        <label for="">Account Holder's Name</label>
+        </b>
+    </div>
+  </div> 
+  </div>
+<!-- 7th row -->
+  <div class="row ">
+  <div class="col"><input type="number" class="form-control"  disabled></div>
+ </div>
+ <!-- 8th row -->
+ 
+  <div class="row mt-3 d-flex align-items-center">
+    <div class="col-sm-2"><b>Membership type</b></div>
+    <div class="col-sm-3">
+      <div class="d-flex align-items-center justify-content-start">
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Standard</label>   
+  </div>
+    </div>
+    <div class="col-sm-2">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Exclusive</label>  
+  </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="d-flex align-items-center justify-content-start" >
+           <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Professional</label>   
+  </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="d-flex align-items-center justify-content-start" >
+           <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">VIP</label>   
+  </div>
+    </div>
+  </div>
+  <!-- 9th row -->
+    <div class="row mt-3">
+  <div class="col orange"><h5>PERSONAL INFORMATION</h5></div>
+ </div>
+ <!-- 10th row -->
+ <div class="row mt-3">
+  <div class="col-sm-2"><strong>Father's Name</strong></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+ <!-- 11th row -->
+   <div class="row mt-3">
+  <div class="col-sm-2"><b>Mother's Name</b></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+ <!-- 12th row -->
+  
+  <div class="row mt-3 align-items-center">
+  <div class="col-12 col-md-2 mb-2 mb-md-0"><b>Date of Birth</b></div>
+
+  <div class="col-12 col-md-3 mb-2 mb-md-0">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Day</label>
+      <input type="number" class="form-control p-1 me-2 ms-4" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-3 mb-2 mb-md-0">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Month</label>
+      <input type="number" class="form-control p-1 me-2 ms-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4">
+    <div class="d-flex flex-wrap align-items-center">
+      <label class="me-2">Year</label>
+      <input type="number" class="form-control p-1 me-2 ms-4" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1 me-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1 me-2" style="width: 60px;" disabled>
+      <input type="number" class="form-control p-1" style="width: 60px;" disabled>
+    </div>
+  </div>
+</div>
+
+  <!-- 13th row -->
+   <div class="row mt-3">
+  <div class="col-sm-2"><b>Place of Birth</b></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+ <!-- 14th row -->
+  <div class="row mt-3 d-flex align-items-center">
+    <div class="col-sm-2"><b>Gender</b></div>
+    <div class="col-sm-3">
+      <div class="d-flex align-items-center justify-content-start">
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Male</label>   
+  </div>
+    </div>
+    <div class="col-sm-2">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Female</label>  
+  </div>
+    </div>
+    </div>
+    <!-- 15th row -->
+      <div class="row mt-3 d-flex align-items-center">
+    <div class="col-sm-2"><b>Residance Status</b></div>
+    <div class="col-sm-3">
+      <div class="d-flex align-items-center justify-content-start">
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Residance</label>   
+  </div>
+    </div>
+    <div class="col-sm-2">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">No-Residance</label>  
+  </div>
+    </div>
+    </div>
+    <!-- 16th row -->
+      <div class="row mt-3 d-flex align-items-center">
+    <div class="col-sm-2"><b>Marital Status</b></div>
+    <div class="col-sm-3">
+      <div class="d-flex align-items-center justify-content-start">
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Married</label>   
+  </div>
+    </div>
+    <div class="col-sm-2">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Single</label>  
+  </div>
+    </div>
+     <div class="col-sm-3">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Divorced</label>  
+  </div>
+    </div>
+     <div class="col-sm-2">
+       <div class="d-flex align-items-center justify-content-start" >
+         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="col-form-label mb-0 ms-4">Others</label>  
+  </div>
+    </div>
+    </div>
+    <!-- 17th row -->
+     <div class="row mt-3">
+      <div class="col-sm-2"><b>Spouse Name</b></div>
+      <div class="col-sm-6"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>No.Of Children</b></div>
+      <div class="col-sm-2"><input type="text"class="form-control" disabled></div>
+     </div>
+     <!-- 18th row -->
+      <div class="row mt-3">
+  <div class="col-sm-2"><b>Religion</b></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+      <!-- 19th row -->
+       <div class="row mt-3">
+  <div class="col-sm-2"><b>Nationality</b></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+       <!-- 20th row -->
+         <div class="row mt-3">
+      <div class="col-sm-2"><b>National ID No.</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>TIN No.</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+        <!-- 21th row -->
+          <div class="row mt-3">
+      <div class="col-sm-2"><b>Passport No.</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>Driving License</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+         <!-- 22th row -->
+           <div class="row mt-3">
+  <div class="col-sm-2"><b>Other ID Type</b></div>
+  <div class="col-sm-10"><input type="text"class="form-control col-sm-9" disabled></div>
+ </div>
+ <hr>
+          <!-- 23 the row -->
+            <div class="row mt-3">
+  <div class="col-sm-3"><b>Present Address (Residance)</b></div>
+  <div class="col-sm-9"><input type="text"class="form-control" disabled></div>
+ </div>
+           <!-- 24th row -->
+               <div class="row mt-3">
+      <div class="col-sm-2"><b>City</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>State</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+            <!-- 25 the row -->
+                <div class="row mt-3">
+      <div class="col-sm-2"><b>Zip Code</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>Country</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+             <!-- 26th row -->
+                 <div class="row mt-3">
+      <div class="col-sm-2"><b>Email</b></div>
+      <div class="col-sm-5"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>Contact No.</b></div>
+      <div class="col-sm-3"><input type="text"class="form-control" disabled></div>
+     </div>
+     <hr>
+              <!-- 27th row -->
+    <div class="row mt-3">
+  <div class="col-sm-3"><b>Permanent Address (Residance)</b></div>
+  <div class="col-sm-9"><input type="text"class="form-control" disabled></div>
+ </div>
+               <!-- 28th row -->
+                        <div class="row mt-3">
+      <div class="col-sm-2"><b>City</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>State</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+                <!-- 29th row -->
+                      <div class="row mt-3">
+      <div class="col-sm-2"><b>Zip Code</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>Country</b></div>
+      <div class="col-sm-4"><input type="text"class="form-control" disabled></div>
+     </div>
+                 <!-- 30th row -->
+                            <div class="row mt-3">
+      <div class="col-sm-2"><b>Email</b></div>
+      <div class="col-sm-5"><input type="text"class="form-control" disabled></div>
+      <div class="col-sm-2"><b>Contact No.</b></div>
+      <div class="col-sm-3"><input type="text"class="form-control" disabled></div>
+     </div>
+     <!-- 31th row -->
+      <div class="row mt-3">
+        <div class="col">
+<p><cite><b>I declare that the particulars stated in this application and documents attached are true and authentic.</cite></b></p>
+      </div>
+      </div>
+      <!-- 32th row -->
+       <div class="row mt-3">
+        <div class="col">
+          <input type="text"class="form-control h-50" disabled>
+          <p class="text-center mt-2"disabled>Signature of the Chairman</p>
+        </div>
+        <div class="col">
+          <input type="text"class="form-control h-50" disabled>
+          <p class="text-center mt-2"disabled>Signature of the Applicant</p>
+        </div>
+       </div>
+<!-- container closes here-> -->
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col bg-orange box"></div>
+  </div>
+</div>
+</body>
+</html>
